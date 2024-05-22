@@ -1,0 +1,59 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 50px 0;
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#section1 {
+    background-image: url('https://raw.githubusercontent.com/tboysavage/portfolio/main/images/new2.png');
+}
+
+#section2 {
+    background-image: url('https://img.freepik.com/free-vector/comic-pop-art-cloud-bubble-funny-speech-bubble-trendy-colorful-retro-vintage-background-pop-art-retro-comic-style-illustration-easy-editable_91128-1398.jpg?w=2000&t=st=1716418882~exp=1716419482~hmac=50ce9795221d86871589bcdc188a01ed5850d3823eb63348538a5765f02a7779');
+}
+
+.normal {
+    height: 100vh;
+    background: black;
+    color: #333;
+    display: flex;
+    background-image: url('https://img.freepik.com/free-vector/flat-design-cartoon-bang-background_23-2151122019.jpg?w=2000&t=st=1716419080~exp=1716419680~hmac=c801591847214661a0836ab8b2ec4f5af06f30a2d72df5f1c8a5844a990aec6a');
+    background-size:cover;   
+    background-position: center center;   
+
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+}
+h1{
+    font-size: 30px;
+}
